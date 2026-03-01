@@ -1,2 +1,1 @@
-# nguyentien
-my first portfolio website
+https://tiennguyen247.github.io/nguyentien/
