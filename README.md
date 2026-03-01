@@ -4,9 +4,9 @@
 
 *Vietnam-based · Available for remote part-time work · UTC+7*
 
-[![Portfolio](https://nguyentien.vercel.app/)
-[![Email](mailto:nt803666@gmail.com)
-[![Facebook](https://www.facebook.com/nguyen.manh.tien.73059/)
+[Portfolio](https://nguyentien.vercel.app/)
+[Email](mailto:nt803666@gmail.com)
+[Facebook](https://www.facebook.com/nguyen.manh.tien.73059/)
 
 ---
 
@@ -29,18 +29,18 @@ What makes me different: **I'm fluent in English at an advanced level** — whic
 
 **Languages I've studied formally:**
 
-![C]
-![C++]
-![Python]
-![HTML5]
-![CSS3]
-![JavaScript]
+[C]
+[C++]
+[Python]
+[HTML5]
+[CSS3]
+[JavaScript]
 
 **Tools & platforms:**
 
-![VS Code]
-![Git]
-![GitHub]
+[VS Code]
+[Git]
+[GitHub]
 
 ---
 
@@ -67,12 +67,11 @@ What makes me different: **I'm fluent in English at an advanced level** — whic
 
 ## 🎯 Current Goals
 
-- [ ] Build a small playable game demo in C++ to strengthen my programming portfolio
-- [ ] Land my first remote part-time role in localization testing or player support
+- [ ] Build a small playable game demo in Unity to strengthen my programming portfolio
+- [ ] Land my first remote part-time role in game testing or player support
 - [ ] Complete my second year of IT studies with strong results
 - [ ] Contribute to an open-source project related to game tools or dev utilities
-- [ ] Keep improving my web development skills with JavaScript frameworks
-
+- [ ] Keep improving my game development skills combining with various AI tools
 ---
 
 ## 💼 Open for Work
