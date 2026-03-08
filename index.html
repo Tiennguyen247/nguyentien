@@ -1,310 +1,517 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nguyen Tien — English Content & Game Communities</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <!-- NAV -->
-  <nav id="navbar">
-    <div class="logo">NGUYEN <span>TIEN</span></div>
-    <div class="nav-right">
-      <ul id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-        <span class="toggle-icons">🌙☀️</span>
-      </button>
-      <div class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Tien — IT Student & Aspiring Game Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <div class="logo">NGUYEN <span>TIEN</span></div>
+      <div class="nav-right">
+        <ul id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="toggle-icons">&#127769;&#9728;&#65039;</span>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-ring">
+            <div class="hero-photo-inner">
+              <img src="profile.png" alt="Tien" class="no-bg" />
+            </div>
+          </div>
+        </div>
 
-      <!-- PHOTO LEFT -->
-      <div class="hero-photo-wrapper">
-        <div class="hero-photo-ring">
-          <div class="hero-photo-inner">
-            <img src="profile.png" alt="Tien" class="no-bg">
+        <div class="hero-text-container">
+          <h1>
+            IT Student &amp;<br />
+            <em>Aspiring</em> Game Developer
+          </h1>
+          <p class="hero-sub">
+            Second-year IT student from Vietnam with a passion for technology
+            and game development. I'm responsible, a fast learner, and ready to
+            work hard — actively looking for a part-time opportunity to gain
+            real-world experience while I study.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">Hire Me</a>
+            <a href="#portfolio" class="btn-ghost">See My Work</a>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- TEXT RIGHT -->
-      <div class="hero-text-container">
-
-        <h1>
-          English Content<br>
-           &amp; <em>Game</em> Communities
-        </h1>
-
-        <p class="hero-sub">
-          Vietnam-based IT student &amp; aspiring game developer. I bring fluent English, a programmer's mindset, and a gamer's passion to content writing, game testing, and community support roles.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Hire Me</a>
-          <a href="#portfolio" class="btn-ghost">See My Work</a>
-        </div>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="reveal">
+        <h2 class="section-title">About <em>Me</em></h2>
       </div>
-
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="reveal">
-      <h2 class="section-title">About <em>Me</em></h2>
-    </div>
-    <div class="about-grid">
-
-      <!-- TEXT LEFT -->
-      <div class="about-text reveal">
-        <h3>IT Student · English Communicator · Strategic Gamer</h3>
-        <p>I'm a second-year IT student in Vietnam with hands-on experience in C, C++, Python, and web development. But what truly sets me apart is my fluency in English — I communicate, write, and think in English at an advanced level</p>
-        <p>I'm on a path to join a world-class game studio — inspired by the demanding design philosophy of games like <em>Elden Ring</em>. While I build those skills, I'm actively available for part-time, remote-friendly work in game testing, community management, player support, and English content — roles where my English proficiency and gaming knowledge genuinely add value right now.</p>
-        <p>I'm detail-oriented, self-driven, and flexible with hours. If you need someone who understands games and English, I'm your person.</p>
-        <div class="skills-list">
-          <div class="skill-item">
-            <strong>Languages:</strong><br>
-            <span>English (Advanced), Vietnamese (Native)</span>
-          </div>
-          <div class="skill-item">
-            <strong>Programming:</strong><br>
-            <span>C++, C, Python, HTML/CSS/JS</span>
-          </div>
-          <div class="skill-item">
-            <strong>Game Knowledge:</strong><br>
-            <span>Action RPGs, Soulslike, Open World, Game Logic</span>
-          </div>
-          <div class="skill-item">
-            <strong>Available For:</strong><br>
-            <span>Remote · Part-time · Flexible hours · 20–30 hrs/week</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- PHOTO RIGHT - CIRCULAR -->
-      <div class="about-photo-col reveal">
-        <div class="about-photo-frame">
-          <div class="about-photo-inner">
-            <img src="profile.png" alt="Tien" class="no-bg">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h3>IT Student · Technology Enthusiast · Team Player</h3>
+          <p>
+            I'm a second-year IT student in Vietnam studying programming and
+            software development. I work with C, C++, Python, and basic web
+            technologies, and I genuinely enjoy problem-solving and learning how
+            things work under the hood.
+          </p>
+          <p>
+            Outside of class, I'm interested in game development — I find the
+            mix of logic, creativity, and design fascinating. I've also worked
+            as a service employee at Circle-K, which taught me a lot about
+            responsibility, handling busy situations, and working with different
+            kinds of people.
+          </p>
+          <p>
+            Right now I'm looking for a part-time job that fits around my
+            studies. I'm dependable, quick to learn, and happy to take on tasks
+            I haven't done before. Whether it's retail, customer service, or an
+            office role — I'll show up, stay organized, and give it my best.
+          </p>
+          <div class="skills-list">
+            <div class="skill-item">
+              <strong>Languages:</strong><br />
+              <span>English (Intermediate), Vietnamese (Native)</span>
+            </div>
+            <div class="skill-item">
+              <strong>Technical Skills:</strong><br />
+              <span
+                >C++, C, Python, HTML / CSS / JavaScript · Basic programming
+                &amp; debugging</span
+              >
+            </div>
+            <div class="skill-item">
+              <strong>Personal Skills:</strong><br />
+              <span
+                >Communication · Teamwork · Problem-solving · Time management ·
+                Attention to detail</span
+              >
+            </div>
+            <div class="skill-item">
+              <strong>Availability:</strong><br />
+              <span
+                >Flexible hours · Student schedule friendly · Part-time</span
+              >
+            </div>
           </div>
         </div>
-      </div>
 
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <div class="reveal">
-      <h2 class="section-title">What I <em>Offer</em></h2>
-    </div>
-    <div class="services-grid">
-      <div class="service-card reveal">
-        <div class="service-icon">🎮</div>
-        <h3>QA / Localization Testing</h3>
-        <p>I play games carefully and critically. I can test English and Vietnamese text for accuracy, fluency, tone consistency, and cultural fit — catching what automated tools miss. Strong eye for grammar, phrasing, and immersion-breaking errors.</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-icon">🌐</div>
-        <h3>Community Management & Moderation</h3>
-        <p>Experienced engaging in English-language gaming communities. I can moderate Discord servers, respond to player issues, draft announcements, and keep communities positive — in fluent, natural English that feels human, not corporate.</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-icon">🎧</div>
-        <h3>Player Support / Customer Service</h3>
-        <p>Patient, clear, and empathetic written communication. I can handle player tickets, FAQ creation, issue escalation, and feedback reporting — with full English fluency and an understanding of gaming culture and gamer expectations.</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-icon">📖</div>
-        <h3>Vietnamese ↔ English Translation</h3>
-        <p>Accurate and natural translation for games, websites, and technical documents. I understand both cultures deeply, ensuring that tone, humor, and context carry across — not just the words.</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-icon">✍️</div>
-        <h3>English Content Writing</h3>
-        <p>Blog posts, game reviews, patch note rewrites, social media copy, or website content. I write clearly and engagingly for gaming and tech audiences, with a style that's professional yet approachable.</p>
-      </div>
-      <div class="service-card reveal">
-        <div class="service-icon">📚</div>
-        <h3>English Tutoring</h3>
-        <p>One-on-one lessons tailored for Vietnamese students and professionals. I focus on practical communication, technical vocabulary for programmers, and the kind of English that actually matters in international work environments.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFOLIO -->
-  <section id="portfolio" class="section">
-    <div class="reveal">
-      <h2 class="section-title">Recent <em>Work</em></h2>
-    </div>
-    <div class="portfolio-grid">
-      <div class="portfolio-item reveal">
-        <div class="portfolio-header">
-          <h3>Game Wuthering Wave Analysis</h3>
-          <p>Essay &amp; Critical Analysis</p>
-        </div>
-        <div class="portfolio-content">
-          <p>An essay analyzing Gameplay in Wuthering Wave — exploring how difficulty, environmental storytelling, and player freedom interact. Demonstrates both advanced English writing and genuine technical understanding of game design.</p>
-          <div class="tags">
-            <span class="tag">Game Analysis</span>
-            <span class="tag">Technical Writing</span>
+        <div class="about-photo-col reveal">
+          <div class="about-photo-frame">
+            <div class="about-photo-inner">
+              <img src="profile.png" alt="Tien" class="no-bg" />
+            </div>
           </div>
         </div>
       </div>
-      <div class="portfolio-item reveal">
-        <div class="portfolio-header">
-          <h3>English Guide for Vietnamese Programmers</h3>
-          <p>Educational Content</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="reveal">
+        <h2 class="section-title">Skills &amp; <em>Strengths</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:puzzle-outline"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Problem Solving</h3>
+          <p>
+            Through IT coursework and coding practice, I've built a habit of
+            breaking down problems step by step and finding solutions — a
+            mindset that translates well to any kind of work environment.
+          </p>
         </div>
-        <div class="portfolio-content">
-          <p>A practical guide helping Vietnamese IT students improve English for international collaboration — covering technical vocabulary, professional email etiquette, common mistakes, and how to communicate clearly in code reviews and team settings.</p>
-          <div class="tags">
-            <span class="tag">Education</span>
-            <span class="tag">Technical English</span>
-            <span class="tag">Guide</span>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:message-text-outline"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Communication</h3>
+          <p>
+            Comfortable talking with people in both English and Vietnamese. I
+            can explain things clearly, listen carefully, and adjust my tone
+            depending on who I'm speaking with — whether that's a customer, a
+            teammate, or a manager.
+          </p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:account-group-outline"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Team Collaboration</h3>
+          <p>
+            I've worked in a team environment at Circle-K and on group
+            programming projects at school. I know how to pull my weight,
+            support my teammates, and get things done without needing to be told
+            twice.
+          </p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:laptop"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Technology Skills</h3>
+          <p>
+            I'm comfortable learning new software, tools, and systems quickly.
+            Whether it's a new POS system, internal platform, or any tech used
+            on the job — I'll figure it out fast.
+          </p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:shield-check-outline"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Reliability</h3>
+          <p>
+            I show up on time, follow through on what I say I'll do, and stay
+            organized even when juggling study and work. I understand that
+            dependability is one of the most important things in any job.
+          </p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <span
+              class="iconify"
+              data-icon="mdi:cached"
+              data-width="32"
+              data-height="32"
+            ></span>
+          </div>
+          <h3>Adaptability</h3>
+          <p>
+            I adjust easily to new environments, tasks, and routines. I don't
+            need everything spelled out — once I understand what's expected, I
+            get on with it and look for ways to improve.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <div class="reveal">
+        <h2 class="section-title">
+          Projects &amp; <em>Learning Experience</em>
+        </h2>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal">
+          <div class="portfolio-header">
+            <h3>Game Analysis Essay</h3>
+            <p>Personal Writing Project</p>
+          </div>
+          <div class="portfolio-content">
+            <p>
+              A personal essay analyzing gameplay mechanics in Wuthering Waves —
+              looking at how game design decisions affect the player experience.
+              Shows analytical thinking, clear writing, and genuine interest in
+              how games are built.
+            </p>
+            <div class="tags">
+              <span class="tag">Analytical Thinking</span>
+              <span class="tag">Writing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-header">
+            <h3>English Guide for Vietnamese Programmers</h3>
+            <p>Personal Writing Project</p>
+          </div>
+          <div class="portfolio-content">
+            <p>
+              A practical writing project aimed at helping Vietnamese IT
+              students improve their technical English for programming and
+              teamwork. Covers vocabulary, common mistakes, and how to
+              communicate clearly in a professional setting.
+            </p>
+            <div class="tags">
+              <span class="tag">Writing</span>
+              <span class="tag">Technical English</span>
+              <span class="tag">Self-initiated</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <div class="portfolio-header">
+            <h3>This Portfolio Website</h3>
+            <p>Web Development Project</p>
+          </div>
+          <div class="portfolio-content">
+            <p>
+              A self-built website created using HTML, CSS, and JavaScript —
+              including a dark/light theme toggle, scroll animations, and a
+              mobile-friendly layout. Built independently to practice web
+              development and present myself online.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML / CSS / JS</span>
+              <span class="tag">Self-built</span>
+              <span class="tag">Independent Learning</span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="portfolio-item reveal">
-        <div class="portfolio-header">
-          <h3>This Portfolio Website</h3>
-          <p>Web Development Project</p>
+    </section>
+
+    <!-- STATS BAND -->
+    <div class="stats-band">
+      <div class="stats-inner">
+        <div class="stat-box reveal">
+          <div class="stat-number">3+</div>
+          <div class="stat-label">Programming Languages Learned</div>
         </div>
-        <div class="portfolio-content">
-          <p>Designed and built entirely from scratch using HTML, CSS, and JavaScript — with a dark/light theme toggle, scroll animations, mobile-responsive layout, and a live contact form. A practical demonstration of my current web development skills.</p>
-          <div class="tags">
-            <span class="tag">HTML / CSS / JS</span>
-            <span class="tag">Responsive Design</span>
-            <span class="tag">Self-built</span>
+        <div class="stat-box reveal">
+          <div class="stat-number">2+</div>
+          <div class="stat-label">Years Studying IT</div>
+        </div>
+        <div class="stat-box reveal">
+          <div class="stat-number">Intermediate</div>
+          <div class="stat-label">English Communication</div>
+        </div>
+        <div class="stat-box reveal">
+          <div class="stat-number">Ready</div>
+          <div class="stat-label">Available for Work</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-two-col">
+        <div class="contact-info reveal">
+          <h2 class="contact-heading">Let's Get in <em>Touch</em></h2>
+          <p class="contact-desc">
+            I'm currently looking for part-time job opportunities while studying
+            IT. I'm open to roles in retail, customer service, cafe work, or
+            office assistance — anywhere I can contribute, learn new things, and
+            gain real-world experience. Feel free to reach out!
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-label">
+              <span
+                class="iconify"
+                data-icon="mdi:email-outline"
+                data-width="16"
+              ></span>
+            </span>
+            <a href="mailto:nt803666&#64;gmail.com">nt803666&#64;gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">
+              <span
+                class="iconify"
+                data-icon="mdi:phone-outline"
+                data-width="16"
+              ></span>
+            </span>
+            <span>0835074413</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">
+              <span
+                class="iconify"
+                data-icon="mdi:clock-outline"
+                data-width="16"
+              ></span>
+            </span>
+            <span>Mon &ndash; Sun, flexible &middot; 20&ndash;30 hrs/week</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-detail-label">
+              <span
+                class="iconify"
+                data-icon="mdi:map-marker-outline"
+                data-width="16"
+              ></span>
+            </span>
+            <span>Vietnam (UTC+7) &middot; Remote-friendly worldwide</span>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- STATS BAND -->
-  <div class="stats-band">
-    <div class="stats-inner">
-      <div class="stat-box reveal">
-        <div class="stat-number">4+</div>
-        <div class="stat-label">Years Advanced English</div>
-      </div>
-      <div class="stat-box reveal">
-        <div class="stat-number">3+</div>
-        <div class="stat-label">Programming Languages</div>
-      </div>
-      <div class="stat-box reveal">
-        <div class="stat-number">100%</div>
-        <div class="stat-label">Remote Ready</div>
-      </div>
-      <div class="stat-box reveal">
-        <div class="stat-number">20–30</div>
-        <div class="stat-label">Hours/Week Available</div>
-      </div>
-    </div>
-  </div>
-
- <!-- CONTACT -->
-  <section id="contact" class="section contact-section">
-    <div class="contact-two-col">
-
-      <!-- LEFT: Info -->
-      <div class="contact-info reveal">
-        <h2 class="contact-heading">Let's Get in <em>Touch</em></h2>
-        <p class="contact-desc">Looking for a bilingual, game-savvy English communicator? I'm open to localization testing, player support, community roles, and content work — remote and part-time. Let's talk.</p>
-
-        <div class="contact-detail">
-          <span class="contact-detail-label">E</span>
-          <a href="mailto:nt803666@gmail.com">nt803666@gmail.com</a>
-        </div>
-        <div class="contact-detail">
-          <span class="contact-detail-label">P</span>
-          <span>0835074413</span>
-        </div>
-        <div class="contact-detail">
-          <span class="contact-detail-label">H</span>
-          <span>Mon &ndash; Sun, flexible &middot; 20&ndash;30 hrs/week</span>
-        </div>
-        <div class="contact-detail">
-          <span class="contact-detail-label">L</span>
-          <span>Vietnam (UTC+7) &middot; Remote-friendly worldwide</span>
+        <div class="contact-form-wrap reveal">
+          <div class="contact-form-group">
+            <label for="cf-name">Your Name</label>
+            <input type="text" id="cf-name" placeholder="Enter full name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="cf-email"
+              >Your Email <span class="required">*</span></label
+            >
+            <input
+              type="email"
+              id="cf-email"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+          <div class="contact-form-group">
+            <label for="cf-msg"
+              >Tell Me About the Role or Project
+              <span class="required">*</span></label
+            >
+            <textarea
+              id="cf-msg"
+              rows="5"
+              placeholder="Tell me about the role or opportunity you have in mind"
+              required
+            ></textarea>
+          </div>
+          <button class="btn-send" id="sendMsgBtn">Send Message</button>
         </div>
       </div>
+    </section>
 
-      <!-- RIGHT: Form -->
-      <div class="contact-form-wrap reveal">
-        <div class="contact-form-group">
-          <label for="cf-name">Your Name</label>
-          <input type="text" id="cf-name" placeholder="Enter full name" />
+    <!-- FOOTER -->
+    <footer class="footer-dark">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div class="footer-logo">NGUYEN <span>TIEN</span></div>
+          <p class="footer-tagline">
+            IT Student &middot; Technology Enthusiast &middot; Aspiring Game
+            Developer<br />Vietnam-based, seeking part-time opportunities.
+          </p>
+          <div class="footer-socials">
+            <a
+              href="https://www.facebook.com/nguyen.manh.tien.73059/?locale=vi_VN"
+              aria-label="Facebook"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <span
+                class="iconify"
+                data-icon="mdi:facebook"
+                data-width="18"
+                data-height="18"
+              ></span>
+            </a>
+            <a
+              href="https://www.instagram.com/nt803666/"
+              aria-label="Instagram"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <span
+                class="iconify"
+                data-icon="mdi:instagram"
+                data-width="18"
+                data-height="18"
+              ></span>
+            </a>
+            <a
+              href="https://www.tiktok.com/@nguyentien2006247"
+              aria-label="TikTok"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <span
+                class="iconify"
+                data-icon="ic:baseline-tiktok"
+                data-width="18"
+                data-height="18"
+              ></span>
+            </a>
+            <a
+              href="https://x.com/NguynTin930052"
+              aria-label="X"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <span
+                class="iconify"
+                data-icon="ri:twitter-x-fill"
+                data-width="18"
+                data-height="18"
+              ></span>
+            </a>
+          </div>
         </div>
-        <div class="contact-form-group">
-          <label for="cf-email">Your Email <span class="required">*</span></label>
-          <input type="email" id="cf-email" placeholder="Enter email" required />
-        </div>
-        <div class="contact-form-group">
-          <label for="cf-msg">Tell Me About the Role or Project <span class="required">*</span></label>
-          <textarea id="cf-msg" rows="5" placeholder="Describe the role, project, or what you need help with" required></textarea>
-        </div>
-        <button class="btn-send" id="sendMsgBtn">Send Message</button>
-      </div>
 
-    </div>
-  </section>
+        <div class="footer-mid">
+          <p class="footer-col-title">EMAIL</p>
+          <p>
+            <a href="mailto:nt803666&#64;gmail.com">nt803666&#64;gmail.com</a>
+          </p>
+        </div>
 
-  <!-- FOOTER -->
-  <footer class="footer-dark">
-    <div class="footer-inner">
-      <div class="footer-left">
-        <div class="footer-logo">NGUYEN <span>TIEN</span></div>
-        <p class="footer-tagline">English · Localization · Games · Content<br>Vietnam-based, available worldwide.</p>
-        <div class="footer-socials">
-          <a href="https://www.facebook.com/nguyen.manh.tien.73059/?locale=vi_VN" aria-label="Facebook" class="social-icon" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </a>
-          <a href="https://www.instagram.com/nt803666/" aria-label="Instagram" class="social-icon" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <a href="https://www.tiktok.com/@nguyentien2006247" aria-label="TikTok" class="social-icon" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
-          </a>
-          <a href="https://x.com/NguynTin930052" aria-label="X" class="social-icon" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </a>
+        <div class="footer-right">
+          <p class="footer-col-title">QUICK MESSAGE</p>
+          <input
+            type="text"
+            class="footer-input"
+            placeholder="Your Name"
+            id="footer-name"
+          />
+          <button class="btn-send footer-btn-send" id="footerSendBtn">
+            Send Message
+          </button>
         </div>
       </div>
-
-      <div class="footer-mid">
-        <p class="footer-col-title">EMAIL</p>
-        <p>nt803666@gmail.com</p>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nguyen Tien. All rights reserved.</p>
       </div>
+    </footer>
 
-      <div class="footer-right">
-        <p class="footer-col-title">QUICK MESSAGE</p>
-        <input type="text" class="footer-input" placeholder="Your Name" id="footer-name" />
-        <button class="btn-send footer-btn-send" id="footerSendBtn">Send Message</button>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Nguyen Tien. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
